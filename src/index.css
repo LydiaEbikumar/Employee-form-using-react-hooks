@@ -1,13 +1,56 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/* EmployeeForm.css */
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+.employee-form {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .employee-form div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .employee-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .employee-form input, .employee-form select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .error-border {
+    border-color: red !important;
+  }
+  
+  .employee-form .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .employee-form button {
+    grid-column: span 3;
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgb(12, 186, 134);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .employee-form button:hover {
+    background-color: rgb(7, 93, 67);
+  }
+ h1{
+    text-align: center;
+ }
