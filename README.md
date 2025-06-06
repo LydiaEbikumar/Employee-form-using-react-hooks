@@ -26,6 +26,17 @@ First install the dependencies
 ```bash
 npm install
 
+Then run the application
+
+```bash
+npm start
+```
+
+Once it’s running, open your browser
+
+```bash
+http://localhost:3000
+```
 
 ### Folder Structure
 
